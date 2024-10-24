@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TUGAS PERTEMUAN 3</title>
+	<img src="eye.png">
+</head>
+<style>
+body{
+	background-color: lightblue;
+img{
+	scale: width:200px;height: 150px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+table{
+	font-family: monospace;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	overflow: hidden;
+	background-color: azure;
+	color: black;
+}
+tbody tr:hover{
+	background-color: lightskyblue;
+	color: whitesmoke;
+}
+button{
+	font-family: monospace;
+	font-size: 1em;
+	background-color: lightcyan;
+	color: grey;
+	box-shadow: 2px 2px 2px;
+}
+button:hover:focus,button:active{
+	color: lightsteelblue;
+	background-color: darkgray;
+	cursor: pointer;
+}
+</style>
+<body>
+<center>
+<h1>Biodata</h1>
+<table border ="1">
+	<tr>
+		<td>Nama</td>
+		<td>:</td>
+		<td>Siti Nur Rohimah</td>
+	</tr>
+	<tr>
+		<td>NIM</td>
+		<td>:</td>
+		<td>D212111031</td>
+	</tr>
+	<tr>
+		<td>Alamat</td>
+		<td>:</td>
+		<td>Bandung</td>
+	</tr>
+	<tr>
+		<td>Hobi</td>
+		<td>:</td>
+		<td>
+			<ul>  
+				<li>Membaca</li>
+				<li>Memasak</li>
+			</ul>
+		</td>
+	</tr>
+</table>
+
+<button onclick="myalert()">Simpan</button>
+<script>
+	function myalert() {
+		alert("Data berhasil disimpan");
+	}
+</script>
+</center>
+</body>
+</html>
